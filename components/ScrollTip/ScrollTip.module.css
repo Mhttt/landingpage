@@ -1,0 +1,17 @@
+@keyframes bounce {
+  from{
+    transform: translateY(-10px);
+  }
+
+  to{
+    transform: translateY(0);
+  }
+}
+
+.container {
+  position: fixed;
+  bottom: 1%;
+  left: 59.2%;
+
+  animation: bounce 1s ease-in-out infinite alternate;
+}

@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  position: fixed;
+  width: 50%;
+  margin-top: 5vh;
+  margin-left: 5%;
+}
+
+.menus{
+  display:flex;
+  width: 100%;
+  gap:24px;
+  justify-content: flex-end;
+}
+
+.logo {
+  color: red;
+  font-weight: 800;
+  width: 30%;
+}
+
+
+.contact {
+  font-size: 24px;
+}
+
+.about {
+  font-size: 24px;
+}

@@ -1,0 +1,28 @@
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.stepAndTitleContainer {
+  display: flex;
+}
+
+.step {
+  color: #f86655;
+  width: 7%;
+  margin-bottom: 0;
+}
+
+.title {
+  width: 93%;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.description {
+  margin-left: 7%;
+  margin-top: 0;
+}
