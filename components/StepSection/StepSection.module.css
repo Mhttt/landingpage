@@ -1,9 +1,9 @@
-@keyFrames slideInLeft {
+@keyframes slideInLeft {
   0% {
     transform: translateX(-1500px);
   }
 
-  100%{
+  100% {
     transform: translateX(0);
   }
 }
