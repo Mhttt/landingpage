@@ -1,10 +1,10 @@
-import styles from './ScrollTip.module.css'
+import Image from 'next/image';
+import styles from './ScrollTip.module.css';
 
 export default function ScrollTip() {
-  return(
-
+  return (
     <div className={styles.container}>
-      <img src="scroll.svg" width={30}></img>
+      <Image src="scroll.svg" alt="scroll" width={30} height={30}></Image>
     </div>
-  )
+  );
 }

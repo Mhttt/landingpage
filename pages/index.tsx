@@ -29,20 +29,20 @@ export default function Page() {
         <Image
           className={styles.fadeIn}
           src="/circle1.svg"
-          alt="test"
+          alt="circle"
           width={200}
           height={500}
         ></Image>
         <Image
           src="/circle2.svg"
-          alt="test"
+          alt="circle"
           width={200}
           height={200}
           className={`${styles.circle2} ${styles.fadeIn}`}
         ></Image>
         <Image
           src="/circle3.svg"
-          alt="test"
+          alt="circle"
           width={700}
           height={150}
           className={`${styles.circle3} ${styles.fadeIn}`}
