@@ -1,9 +1,7 @@
-
-
 .container {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  max-width: 450px;
 }
 
 .stepAndTitleContainer {
@@ -25,4 +23,16 @@
 .description {
   margin-left: 7%;
   margin-top: 0;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-height: 700px) {
+  .title {
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
 }

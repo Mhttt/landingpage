@@ -1,31 +1,56 @@
-@keyFrames slideInLeft {
+@keyframes slideInLeft {
   0% {
     transform: translateX(-1500px);
   }
 
-  100%{
+  100% {
     transform: translateX(0);
   }
 }
 
-.container{
+.container {
   position: fixed;
   width: 50%;
   top: 30%;
   left: 5%;
 
-  animation: slideInLeft 2s ease-in-out ;
+  animation: slideInLeft 2s ease-in-out;
 }
 
 .title {
   font-size: 52px;
+  margin-bottom: 16px;
 }
 
-.subtitle{
+.subtitle {
   font-size: 28px;
-  color:  #F86655;
+  color: #f86655;
+  margin-bottom: 16px;
 }
 
 .description {
   font-size: 20px;
+}
+
+@media only screen and (max-height: 700px) {
+  .container {
+    top: 20%;
+  }
+
+  .title {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    color: #f86655;
+    margin-bottom: 16px;
+  }
+  
+  .description {
+    font-size: 12px;
+    max-width: 415px;
+  }
+  
 }
